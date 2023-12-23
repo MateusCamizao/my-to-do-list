@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+:root {
+  --bg: #dcdcdc;
+  --bg-panel: #fff;
+  --bg-second-panel: #d7d7d7;
+  --color-text: #000000;
+  --color-headings: rgb(130, 130, 130);
+}
+.Container {
+  height: 100vh;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Title {
+  color: var(--color-text);
+  font-size: 64px;
+  padding: 16px 0px;
+  margin: 8px 0px;
+}
+.ToDoList {
+  background: var(--bg-second-panel);
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.ToDoList p {
+  margin: 8px 0;
+}
+
+.input {
+  box-sizing: border-box;
+}
